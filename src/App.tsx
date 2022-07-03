@@ -19,9 +19,11 @@ export default function App() {
             ut. Dolore mollit excepteur do sint veniam eu proident tempor cillum
             et ea ullamco ut.
           </p>
-          <div>
-            <span className='font-Fraunces font-bold text-3xl'>$149.99</span>
-            <span className='font-Montserrat'>$169.99</span>
+          <div className='my-5 flex items-start gap-5'>
+            <span className='font-Fraunces font-bold text-3xl text-dark-cyan'>
+              $149.99
+            </span>
+            <span className='font-Montserrat mt-2 text-[12px] line-through'>$169.99</span>
           </div>
           <button className='bg-dark-cyan rounded-xl text-white w-full py-3 font-Montserrat font-bold flex justify-center items-center gap-2'>
             <img src={cart} />
