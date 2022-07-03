@@ -1,5 +1,6 @@
 import React from "react";
 import image from "./assets/image-product-desktop.jpg";
+import cart from "./assets/cart.svg";
 
 export default function App() {
   return (
@@ -22,7 +23,10 @@ export default function App() {
             <span className='font-Fraunces font-bold text-3xl'>$149.99</span>
             <span className='font-Montserrat'>$169.99</span>
           </div>
-          <button>Add to Cart</button>
+          <button className='bg-dark-cyan rounded-xl text-white w-full py-3 font-Montserrat font-bold flex justify-center items-center gap-2'>
+            <img src={cart} />
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
