@@ -4,10 +4,10 @@ import cart from "./assets/cart.svg";
 
 export default function App() {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <div className='flex flex-col md:flex-row md:max-w-xl rounded-3xl border'>
-        <img src={image} className='w-1/2' />
-        <div className='p-7'>
+    <div className='flex justify-center items-center h-screen bg-[#F2E9E2] p-5'>
+      <div className='flex flex-col md:flex-row md:max-w-xl'>
+        <img src={image} className='md:w-1/2 rounded-t-3xl md:rounded-none md:rounded-l-3xl' />
+        <div className='p-7 bg-white rounded-b-3xl md:rounded-none md:rounded-r-3xl'>
           <h2 className='font-Montserrat uppercase tracking-[.25em] text-[12px] text-dark-grayish-blue'>
             Perfume
           </h2>
