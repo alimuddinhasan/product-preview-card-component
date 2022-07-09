@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://fascinating-mermaid-608da0.netlify.app/)
+- Live Site URL: [https://fascinating-mermaid-608da0.netlify.app/](https://fascinating-mermaid-608da0.netlify.app/)
 
 ## My process
 
@@ -42,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alimuddinhasan)
+- Frontend Mentor - [@alimuddinhasan](https://www.frontendmentor.io/profile/alimuddinhasan)
